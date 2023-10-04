@@ -3,6 +3,7 @@ import Pizza from './Components/Pizza';
 import PizzaImg1 from './image/pizza.jpg';
 import PizzaImg2 from './image/pizza2.jpg';
 import PizzaImg3 from './image/pizza3.jpg';
+import Card from './Components/Card'
 
 function App() {
   const pizzaData = [
@@ -44,6 +45,7 @@ function App() {
       ) : null}
 
       <Footer />
+      <Card />
     </>
   );
 }
